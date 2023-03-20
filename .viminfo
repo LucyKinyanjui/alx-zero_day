@@ -10,9 +10,18 @@
 
 # hlsearch on (H) or off (h):
 ~h
+# Last Search Pattern:
+~Msle0~/\<Shell\>
+
 # Command Line History (newest to oldest):
+:q
+|2,0,1676362451,,"q"
+:Q
+|2,0,1676307041,,"Q"
 
 # Search String History (newest to oldest):
+? \<Shell\>
+|2,1,1676317421,,"\\<Shell\\>"
 
 # Expression History (newest to oldest):
 
@@ -21,40 +30,978 @@
 # Debug Line History (newest to oldest):
 
 # Registers:
+"0	LINE	0
+	Shell,I/O Redirection
+|3,0,0,1,1,0,1676317406,"Shell,I/O Redirection"
+"1	LINE	0
+	find . -type d -not -name '.' | wc -l
+|3,0,1,1,1,0,1676320991,"find . -type d -not -name '.' | wc -l"
+"2	LINE	0
+	echo \*\\'"Best School"\'\\*$\?\*\*\*\*\*:)
+|3,0,2,1,1,0,1676319054,"echo \\*\\\\'\"Best School\"\\'\\\\*$\\?\\*\\*\\*\\*\\*:)"
+"3	LINE	0
+	
+|3,0,3,1,1,0,1676318145,""
+"4	LINE	0
+	Display the content of /etc/passwd and /etc/hosts
+|3,0,4,1,1,0,1676317632,"Display the content of /etc/passwd and /etc/hosts"
+"5	LINE	0
+	"Hello, World"
+|3,0,5,1,1,0,1676305921,"\"Hello, World\""
+"6	LINE	0
+	#!/bin/bash
+|3,0,6,1,1,0,1675960961,"#!/bin/bash"
+"7	LINE	0
+	
+|3,0,7,1,1,0,1675959975,""
+"8	LINE	0
+	0 string SCHOOL School data file
+|3,0,8,1,1,0,1675959859,"0 string SCHOOL School data file"
+"9	LINE	0
+	
+|3,0,9,1,1,0,1675959857,""
+""-	CHAR	0
+	/
+|3,1,36,0,1,0,1676543837,"/"
 
 # File marks:
-'0  2  21  /alx-pre_course/0x01-git/bash/school
-|4,48,2,21,1675369902,"/alx-pre_course/0x01-git/bash/school"
-'1  2  9  /alx-pre_course/0x01-git/bash/alx
-|4,49,2,9,1675369719,"/alx-pre_course/0x01-git/bash/alx"
+'0  12  5  ~/alx-low_level_programming/0x0D-preprocessor/4-sum.h
+|4,48,12,5,1679296444,"~/alx-low_level_programming/0x0D-preprocessor/4-sum.h"
+'1  12  6  ~/alx-low_level_programming/0x0D-preprocessor/3-function_like_macro.h
+|4,49,12,6,1679296408,"~/alx-low_level_programming/0x0D-preprocessor/3-function_like_macro.h"
+'2  18  0  ~/alx-low_level_programming/0x0D-preprocessor/2-main.c
+|4,50,18,0,1679296358,"~/alx-low_level_programming/0x0D-preprocessor/2-main.c"
+'3  12  5  ~/alx-low_level_programming/0x0D-preprocessor/1-pi.h
+|4,51,12,5,1679296324,"~/alx-low_level_programming/0x0D-preprocessor/1-pi.h"
+'4  18  2  ~/alx-low_level_programming/0x0D-preprocessor/README.md
+|4,52,18,2,1679296277,"~/alx-low_level_programming/0x0D-preprocessor/README.md"
+'5  31  0  ~/alx-low_level_programming/0x0C-more_malloc_free/0-main.c
+|4,53,31,0,1678985254,"~/alx-low_level_programming/0x0C-more_malloc_free/0-main.c"
+'6  26  0  ~/alx-low_level_programming/0x0C-more_malloc_free/0-malloc_checked.c
+|4,54,26,0,1678985195,"~/alx-low_level_programming/0x0C-more_malloc_free/0-malloc_checked.c"
+'7  18  0  ~/alx-low_level_programming/0x0C-more_malloc_free/1-main.c
+|4,55,18,0,1678985085,"~/alx-low_level_programming/0x0C-more_malloc_free/1-main.c"
+'8  48  0  ~/alx-low_level_programming/0x0C-more_malloc_free/1-string_nconcat.c
+|4,56,48,0,1678984950,"~/alx-low_level_programming/0x0C-more_malloc_free/1-string_nconcat.c"
+'9  54  0  ~/alx-low_level_programming/0x0C-more_malloc_free/100-main.c
+|4,57,54,0,1678984884,"~/alx-low_level_programming/0x0C-more_malloc_free/100-main.c"
 
 # Jumplist (newest first):
--'  2  21  /alx-pre_course/0x01-git/bash/school
-|4,39,2,21,1675369902,"/alx-pre_course/0x01-git/bash/school"
--'  1  0  /alx-pre_course/0x01-git/bash/school
-|4,39,1,0,1675369756,"/alx-pre_course/0x01-git/bash/school"
--'  2  9  /alx-pre_course/0x01-git/bash/alx
-|4,39,2,9,1675369719,"/alx-pre_course/0x01-git/bash/alx"
--'  2  9  /alx-pre_course/0x01-git/bash/alx
-|4,39,2,9,1675369719,"/alx-pre_course/0x01-git/bash/alx"
--'  1  0  /alx-pre_course/0x01-git/bash/alx
-|4,39,1,0,1675368850,"/alx-pre_course/0x01-git/bash/alx"
--'  1  0  /alx-pre_course/0x01-git/bash/alx
-|4,39,1,0,1675368850,"/alx-pre_course/0x01-git/bash/alx"
+-'  12  5  ~/alx-low_level_programming/0x0D-preprocessor/4-sum.h
+|4,39,12,5,1679296444,"~/alx-low_level_programming/0x0D-preprocessor/4-sum.h"
+-'  1  0  ~/alx-low_level_programming/0x0D-preprocessor/4-sum.h
+|4,39,1,0,1679296435,"~/alx-low_level_programming/0x0D-preprocessor/4-sum.h"
+-'  12  6  ~/alx-low_level_programming/0x0D-preprocessor/3-function_like_macro.h
+|4,39,12,6,1679296408,"~/alx-low_level_programming/0x0D-preprocessor/3-function_like_macro.h"
+-'  12  6  ~/alx-low_level_programming/0x0D-preprocessor/3-function_like_macro.h
+|4,39,12,6,1679296408,"~/alx-low_level_programming/0x0D-preprocessor/3-function_like_macro.h"
+-'  1  0  ~/alx-low_level_programming/0x0D-preprocessor/3-function_like_macro.h
+|4,39,1,0,1679296389,"~/alx-low_level_programming/0x0D-preprocessor/3-function_like_macro.h"
+-'  1  0  ~/alx-low_level_programming/0x0D-preprocessor/3-function_like_macro.h
+|4,39,1,0,1679296389,"~/alx-low_level_programming/0x0D-preprocessor/3-function_like_macro.h"
+-'  18  0  ~/alx-low_level_programming/0x0D-preprocessor/2-main.c
+|4,39,18,0,1679296358,"~/alx-low_level_programming/0x0D-preprocessor/2-main.c"
+-'  18  0  ~/alx-low_level_programming/0x0D-preprocessor/2-main.c
+|4,39,18,0,1679296358,"~/alx-low_level_programming/0x0D-preprocessor/2-main.c"
+-'  18  0  ~/alx-low_level_programming/0x0D-preprocessor/2-main.c
+|4,39,18,0,1679296358,"~/alx-low_level_programming/0x0D-preprocessor/2-main.c"
+-'  18  0  ~/alx-low_level_programming/0x0D-preprocessor/2-main.c
+|4,39,18,0,1679296358,"~/alx-low_level_programming/0x0D-preprocessor/2-main.c"
+-'  1  0  ~/alx-low_level_programming/0x0D-preprocessor/2-main.c
+|4,39,1,0,1679296349,"~/alx-low_level_programming/0x0D-preprocessor/2-main.c"
+-'  1  0  ~/alx-low_level_programming/0x0D-preprocessor/2-main.c
+|4,39,1,0,1679296349,"~/alx-low_level_programming/0x0D-preprocessor/2-main.c"
+-'  1  0  ~/alx-low_level_programming/0x0D-preprocessor/2-main.c
+|4,39,1,0,1679296349,"~/alx-low_level_programming/0x0D-preprocessor/2-main.c"
+-'  1  0  ~/alx-low_level_programming/0x0D-preprocessor/2-main.c
+|4,39,1,0,1679296349,"~/alx-low_level_programming/0x0D-preprocessor/2-main.c"
+-'  12  5  ~/alx-low_level_programming/0x0D-preprocessor/1-pi.h
+|4,39,12,5,1679296324,"~/alx-low_level_programming/0x0D-preprocessor/1-pi.h"
+-'  12  5  ~/alx-low_level_programming/0x0D-preprocessor/1-pi.h
+|4,39,12,5,1679296324,"~/alx-low_level_programming/0x0D-preprocessor/1-pi.h"
+-'  12  5  ~/alx-low_level_programming/0x0D-preprocessor/1-pi.h
+|4,39,12,5,1679296324,"~/alx-low_level_programming/0x0D-preprocessor/1-pi.h"
+-'  12  5  ~/alx-low_level_programming/0x0D-preprocessor/1-pi.h
+|4,39,12,5,1679296324,"~/alx-low_level_programming/0x0D-preprocessor/1-pi.h"
+-'  12  5  ~/alx-low_level_programming/0x0D-preprocessor/1-pi.h
+|4,39,12,5,1679296324,"~/alx-low_level_programming/0x0D-preprocessor/1-pi.h"
+-'  12  5  ~/alx-low_level_programming/0x0D-preprocessor/1-pi.h
+|4,39,12,5,1679296324,"~/alx-low_level_programming/0x0D-preprocessor/1-pi.h"
+-'  12  5  ~/alx-low_level_programming/0x0D-preprocessor/1-pi.h
+|4,39,12,5,1679296324,"~/alx-low_level_programming/0x0D-preprocessor/1-pi.h"
+-'  12  5  ~/alx-low_level_programming/0x0D-preprocessor/1-pi.h
+|4,39,12,5,1679296324,"~/alx-low_level_programming/0x0D-preprocessor/1-pi.h"
+-'  1  0  ~/alx-low_level_programming/0x0D-preprocessor/1-pi.h
+|4,39,1,0,1679296314,"~/alx-low_level_programming/0x0D-preprocessor/1-pi.h"
+-'  1  0  ~/alx-low_level_programming/0x0D-preprocessor/1-pi.h
+|4,39,1,0,1679296314,"~/alx-low_level_programming/0x0D-preprocessor/1-pi.h"
+-'  1  0  ~/alx-low_level_programming/0x0D-preprocessor/1-pi.h
+|4,39,1,0,1679296314,"~/alx-low_level_programming/0x0D-preprocessor/1-pi.h"
+-'  1  0  ~/alx-low_level_programming/0x0D-preprocessor/1-pi.h
+|4,39,1,0,1679296314,"~/alx-low_level_programming/0x0D-preprocessor/1-pi.h"
+-'  1  0  ~/alx-low_level_programming/0x0D-preprocessor/1-pi.h
+|4,39,1,0,1679296314,"~/alx-low_level_programming/0x0D-preprocessor/1-pi.h"
+-'  1  0  ~/alx-low_level_programming/0x0D-preprocessor/1-pi.h
+|4,39,1,0,1679296314,"~/alx-low_level_programming/0x0D-preprocessor/1-pi.h"
+-'  1  0  ~/alx-low_level_programming/0x0D-preprocessor/1-pi.h
+|4,39,1,0,1679296314,"~/alx-low_level_programming/0x0D-preprocessor/1-pi.h"
+-'  1  0  ~/alx-low_level_programming/0x0D-preprocessor/1-pi.h
+|4,39,1,0,1679296314,"~/alx-low_level_programming/0x0D-preprocessor/1-pi.h"
+-'  18  2  ~/alx-low_level_programming/0x0D-preprocessor/README.md
+|4,39,18,2,1679296277,"~/alx-low_level_programming/0x0D-preprocessor/README.md"
+-'  18  2  ~/alx-low_level_programming/0x0D-preprocessor/README.md
+|4,39,18,2,1679296277,"~/alx-low_level_programming/0x0D-preprocessor/README.md"
+-'  18  2  ~/alx-low_level_programming/0x0D-preprocessor/README.md
+|4,39,18,2,1679296277,"~/alx-low_level_programming/0x0D-preprocessor/README.md"
+-'  18  2  ~/alx-low_level_programming/0x0D-preprocessor/README.md
+|4,39,18,2,1679296277,"~/alx-low_level_programming/0x0D-preprocessor/README.md"
+-'  18  2  ~/alx-low_level_programming/0x0D-preprocessor/README.md
+|4,39,18,2,1679296277,"~/alx-low_level_programming/0x0D-preprocessor/README.md"
+-'  18  2  ~/alx-low_level_programming/0x0D-preprocessor/README.md
+|4,39,18,2,1679296277,"~/alx-low_level_programming/0x0D-preprocessor/README.md"
+-'  18  2  ~/alx-low_level_programming/0x0D-preprocessor/README.md
+|4,39,18,2,1679296277,"~/alx-low_level_programming/0x0D-preprocessor/README.md"
+-'  18  2  ~/alx-low_level_programming/0x0D-preprocessor/README.md
+|4,39,18,2,1679296277,"~/alx-low_level_programming/0x0D-preprocessor/README.md"
+-'  18  2  ~/alx-low_level_programming/0x0D-preprocessor/README.md
+|4,39,18,2,1679296277,"~/alx-low_level_programming/0x0D-preprocessor/README.md"
+-'  18  2  ~/alx-low_level_programming/0x0D-preprocessor/README.md
+|4,39,18,2,1679296277,"~/alx-low_level_programming/0x0D-preprocessor/README.md"
+-'  18  2  ~/alx-low_level_programming/0x0D-preprocessor/README.md
+|4,39,18,2,1679296277,"~/alx-low_level_programming/0x0D-preprocessor/README.md"
+-'  18  2  ~/alx-low_level_programming/0x0D-preprocessor/README.md
+|4,39,18,2,1679296277,"~/alx-low_level_programming/0x0D-preprocessor/README.md"
+-'  18  2  ~/alx-low_level_programming/0x0D-preprocessor/README.md
+|4,39,18,2,1679296277,"~/alx-low_level_programming/0x0D-preprocessor/README.md"
+-'  18  2  ~/alx-low_level_programming/0x0D-preprocessor/README.md
+|4,39,18,2,1679296277,"~/alx-low_level_programming/0x0D-preprocessor/README.md"
+-'  18  2  ~/alx-low_level_programming/0x0D-preprocessor/README.md
+|4,39,18,2,1679296277,"~/alx-low_level_programming/0x0D-preprocessor/README.md"
+-'  18  2  ~/alx-low_level_programming/0x0D-preprocessor/README.md
+|4,39,18,2,1679296277,"~/alx-low_level_programming/0x0D-preprocessor/README.md"
+-'  1  0  ~/alx-low_level_programming/0x0D-preprocessor/README.md
+|4,39,1,0,1679296110,"~/alx-low_level_programming/0x0D-preprocessor/README.md"
+-'  1  0  ~/alx-low_level_programming/0x0D-preprocessor/README.md
+|4,39,1,0,1679296110,"~/alx-low_level_programming/0x0D-preprocessor/README.md"
+-'  1  0  ~/alx-low_level_programming/0x0D-preprocessor/README.md
+|4,39,1,0,1679296110,"~/alx-low_level_programming/0x0D-preprocessor/README.md"
+-'  1  0  ~/alx-low_level_programming/0x0D-preprocessor/README.md
+|4,39,1,0,1679296110,"~/alx-low_level_programming/0x0D-preprocessor/README.md"
+-'  1  0  ~/alx-low_level_programming/0x0D-preprocessor/README.md
+|4,39,1,0,1679296110,"~/alx-low_level_programming/0x0D-preprocessor/README.md"
+-'  1  0  ~/alx-low_level_programming/0x0D-preprocessor/README.md
+|4,39,1,0,1679296110,"~/alx-low_level_programming/0x0D-preprocessor/README.md"
+-'  1  0  ~/alx-low_level_programming/0x0D-preprocessor/README.md
+|4,39,1,0,1679296110,"~/alx-low_level_programming/0x0D-preprocessor/README.md"
+-'  1  0  ~/alx-low_level_programming/0x0D-preprocessor/README.md
+|4,39,1,0,1679296110,"~/alx-low_level_programming/0x0D-preprocessor/README.md"
+-'  1  0  ~/alx-low_level_programming/0x0D-preprocessor/README.md
+|4,39,1,0,1679296110,"~/alx-low_level_programming/0x0D-preprocessor/README.md"
+-'  1  0  ~/alx-low_level_programming/0x0D-preprocessor/README.md
+|4,39,1,0,1679296110,"~/alx-low_level_programming/0x0D-preprocessor/README.md"
+-'  1  0  ~/alx-low_level_programming/0x0D-preprocessor/README.md
+|4,39,1,0,1679296110,"~/alx-low_level_programming/0x0D-preprocessor/README.md"
+-'  1  0  ~/alx-low_level_programming/0x0D-preprocessor/README.md
+|4,39,1,0,1679296110,"~/alx-low_level_programming/0x0D-preprocessor/README.md"
+-'  1  0  ~/alx-low_level_programming/0x0D-preprocessor/README.md
+|4,39,1,0,1679296110,"~/alx-low_level_programming/0x0D-preprocessor/README.md"
+-'  1  0  ~/alx-low_level_programming/0x0D-preprocessor/README.md
+|4,39,1,0,1679296110,"~/alx-low_level_programming/0x0D-preprocessor/README.md"
+-'  1  0  ~/alx-low_level_programming/0x0D-preprocessor/README.md
+|4,39,1,0,1679296110,"~/alx-low_level_programming/0x0D-preprocessor/README.md"
+-'  1  0  ~/alx-low_level_programming/0x0D-preprocessor/README.md
+|4,39,1,0,1679296110,"~/alx-low_level_programming/0x0D-preprocessor/README.md"
+-'  31  0  ~/alx-low_level_programming/0x0C-more_malloc_free/0-main.c
+|4,39,31,0,1678985254,"~/alx-low_level_programming/0x0C-more_malloc_free/0-main.c"
+-'  31  0  ~/alx-low_level_programming/0x0C-more_malloc_free/0-main.c
+|4,39,31,0,1678985254,"~/alx-low_level_programming/0x0C-more_malloc_free/0-main.c"
+-'  31  0  ~/alx-low_level_programming/0x0C-more_malloc_free/0-main.c
+|4,39,31,0,1678985254,"~/alx-low_level_programming/0x0C-more_malloc_free/0-main.c"
+-'  31  0  ~/alx-low_level_programming/0x0C-more_malloc_free/0-main.c
+|4,39,31,0,1678985254,"~/alx-low_level_programming/0x0C-more_malloc_free/0-main.c"
+-'  31  0  ~/alx-low_level_programming/0x0C-more_malloc_free/0-main.c
+|4,39,31,0,1678985254,"~/alx-low_level_programming/0x0C-more_malloc_free/0-main.c"
+-'  31  0  ~/alx-low_level_programming/0x0C-more_malloc_free/0-main.c
+|4,39,31,0,1678985254,"~/alx-low_level_programming/0x0C-more_malloc_free/0-main.c"
+-'  31  0  ~/alx-low_level_programming/0x0C-more_malloc_free/0-main.c
+|4,39,31,0,1678985254,"~/alx-low_level_programming/0x0C-more_malloc_free/0-main.c"
+-'  31  0  ~/alx-low_level_programming/0x0C-more_malloc_free/0-main.c
+|4,39,31,0,1678985254,"~/alx-low_level_programming/0x0C-more_malloc_free/0-main.c"
+-'  31  0  ~/alx-low_level_programming/0x0C-more_malloc_free/0-main.c
+|4,39,31,0,1678985254,"~/alx-low_level_programming/0x0C-more_malloc_free/0-main.c"
+-'  31  0  ~/alx-low_level_programming/0x0C-more_malloc_free/0-main.c
+|4,39,31,0,1678985254,"~/alx-low_level_programming/0x0C-more_malloc_free/0-main.c"
+-'  31  0  ~/alx-low_level_programming/0x0C-more_malloc_free/0-main.c
+|4,39,31,0,1678985254,"~/alx-low_level_programming/0x0C-more_malloc_free/0-main.c"
+-'  31  0  ~/alx-low_level_programming/0x0C-more_malloc_free/0-main.c
+|4,39,31,0,1678985254,"~/alx-low_level_programming/0x0C-more_malloc_free/0-main.c"
+-'  31  0  ~/alx-low_level_programming/0x0C-more_malloc_free/0-main.c
+|4,39,31,0,1678985254,"~/alx-low_level_programming/0x0C-more_malloc_free/0-main.c"
+-'  31  0  ~/alx-low_level_programming/0x0C-more_malloc_free/0-main.c
+|4,39,31,0,1678985254,"~/alx-low_level_programming/0x0C-more_malloc_free/0-main.c"
+-'  31  0  ~/alx-low_level_programming/0x0C-more_malloc_free/0-main.c
+|4,39,31,0,1678985254,"~/alx-low_level_programming/0x0C-more_malloc_free/0-main.c"
+-'  31  0  ~/alx-low_level_programming/0x0C-more_malloc_free/0-main.c
+|4,39,31,0,1678985254,"~/alx-low_level_programming/0x0C-more_malloc_free/0-main.c"
+-'  31  0  ~/alx-low_level_programming/0x0C-more_malloc_free/0-main.c
+|4,39,31,0,1678985254,"~/alx-low_level_programming/0x0C-more_malloc_free/0-main.c"
+-'  31  0  ~/alx-low_level_programming/0x0C-more_malloc_free/0-main.c
+|4,39,31,0,1678985254,"~/alx-low_level_programming/0x0C-more_malloc_free/0-main.c"
+-'  31  0  ~/alx-low_level_programming/0x0C-more_malloc_free/0-main.c
+|4,39,31,0,1678985254,"~/alx-low_level_programming/0x0C-more_malloc_free/0-main.c"
+-'  31  0  ~/alx-low_level_programming/0x0C-more_malloc_free/0-main.c
+|4,39,31,0,1678985254,"~/alx-low_level_programming/0x0C-more_malloc_free/0-main.c"
+-'  31  0  ~/alx-low_level_programming/0x0C-more_malloc_free/0-main.c
+|4,39,31,0,1678985254,"~/alx-low_level_programming/0x0C-more_malloc_free/0-main.c"
+-'  31  0  ~/alx-low_level_programming/0x0C-more_malloc_free/0-main.c
+|4,39,31,0,1678985254,"~/alx-low_level_programming/0x0C-more_malloc_free/0-main.c"
+-'  31  0  ~/alx-low_level_programming/0x0C-more_malloc_free/0-main.c
+|4,39,31,0,1678985254,"~/alx-low_level_programming/0x0C-more_malloc_free/0-main.c"
+-'  31  0  ~/alx-low_level_programming/0x0C-more_malloc_free/0-main.c
+|4,39,31,0,1678985254,"~/alx-low_level_programming/0x0C-more_malloc_free/0-main.c"
+-'  31  0  ~/alx-low_level_programming/0x0C-more_malloc_free/0-main.c
+|4,39,31,0,1678985254,"~/alx-low_level_programming/0x0C-more_malloc_free/0-main.c"
+-'  31  0  ~/alx-low_level_programming/0x0C-more_malloc_free/0-main.c
+|4,39,31,0,1678985254,"~/alx-low_level_programming/0x0C-more_malloc_free/0-main.c"
+-'  31  0  ~/alx-low_level_programming/0x0C-more_malloc_free/0-main.c
+|4,39,31,0,1678985254,"~/alx-low_level_programming/0x0C-more_malloc_free/0-main.c"
+-'  31  0  ~/alx-low_level_programming/0x0C-more_malloc_free/0-main.c
+|4,39,31,0,1678985254,"~/alx-low_level_programming/0x0C-more_malloc_free/0-main.c"
+-'  31  0  ~/alx-low_level_programming/0x0C-more_malloc_free/0-main.c
+|4,39,31,0,1678985254,"~/alx-low_level_programming/0x0C-more_malloc_free/0-main.c"
+-'  31  0  ~/alx-low_level_programming/0x0C-more_malloc_free/0-main.c
+|4,39,31,0,1678985254,"~/alx-low_level_programming/0x0C-more_malloc_free/0-main.c"
+-'  31  0  ~/alx-low_level_programming/0x0C-more_malloc_free/0-main.c
+|4,39,31,0,1678985254,"~/alx-low_level_programming/0x0C-more_malloc_free/0-main.c"
+-'  31  0  ~/alx-low_level_programming/0x0C-more_malloc_free/0-main.c
+|4,39,31,0,1678985254,"~/alx-low_level_programming/0x0C-more_malloc_free/0-main.c"
+-'  1  0  ~/alx-low_level_programming/0x0C-more_malloc_free/0-main.c
+|4,39,1,0,1678985240,"~/alx-low_level_programming/0x0C-more_malloc_free/0-main.c"
+-'  1  0  ~/alx-low_level_programming/0x0C-more_malloc_free/0-main.c
+|4,39,1,0,1678985240,"~/alx-low_level_programming/0x0C-more_malloc_free/0-main.c"
+-'  1  0  ~/alx-low_level_programming/0x0C-more_malloc_free/0-main.c
+|4,39,1,0,1678985240,"~/alx-low_level_programming/0x0C-more_malloc_free/0-main.c"
+-'  1  0  ~/alx-low_level_programming/0x0C-more_malloc_free/0-main.c
+|4,39,1,0,1678985240,"~/alx-low_level_programming/0x0C-more_malloc_free/0-main.c"
+-'  1  0  ~/alx-low_level_programming/0x0C-more_malloc_free/0-main.c
+|4,39,1,0,1678985240,"~/alx-low_level_programming/0x0C-more_malloc_free/0-main.c"
+-'  1  0  ~/alx-low_level_programming/0x0C-more_malloc_free/0-main.c
+|4,39,1,0,1678985240,"~/alx-low_level_programming/0x0C-more_malloc_free/0-main.c"
 
 # History of marks within files (newest to oldest):
 
-> /alx-pre_course/0x01-git/bash/school
-	*	1675369888	0
-	"	2	21
-	^	2	22
-	.	2	21
-	+	2	21
+> ~/alx-low_level_programming/0x0D-preprocessor/4-sum.h
+	*	1679296443	0
+	"	12	5
+	^	12	6
+	.	12	5
+	+	12	5
 
-> /alx-pre_course/0x01-git/bash/alx
-	*	1675368932	0
-	"	2	9
-	^	2	10
-	.	2	9
-	+	1	0
-	+	2	9
+> ~/alx-low_level_programming/0x0D-preprocessor/3-function_like_macro.h
+	*	1679296405	0
+	"	12	6
+	^	12	7
+	.	12	6
+	+	12	6
+
+> ~/alx-low_level_programming/0x0D-preprocessor/2-main.c
+	*	1679296356	0
+	"	18	0
+	^	18	1
+	.	18	0
+	+	18	0
+
+> ~/alx-low_level_programming/0x0D-preprocessor/1-pi.h
+	*	1679296322	0
+	"	12	5
+	^	12	6
+	.	12	5
+	+	12	5
+
+> ~/alx-low_level_programming/0x0D-preprocessor/README.md
+	*	1679296275	0
+	"	18	2
+	^	18	3
+	.	18	2
+	+	25	102
+	+	18	2
+
+> ~/alx-low_level_programming/0x0C-more_malloc_free/0-main.c
+	*	1678985248	0
+	"	31	0
+	^	31	1
+	.	31	0
+	+	31	0
+
+> ~/alx-low_level_programming/0x0C-more_malloc_free/0-malloc_checked.c
+	*	1678985193	0
+	"	26	0
+	^	26	1
+	.	26	0
+	+	26	0
+
+> ~/alx-low_level_programming/0x0C-more_malloc_free/1-main.c
+	*	1678985081	0
+	"	18	0
+	^	18	1
+	.	18	0
+	+	18	0
+
+> ~/alx-low_level_programming/0x0C-more_malloc_free/1-string_nconcat.c
+	*	1678984941	0
+	"	48	0
+	^	48	1
+	.	48	0
+	+	48	0
+
+> ~/alx-low_level_programming/0x0C-more_malloc_free/100-main.c
+	*	1678984882	0
+	"	54	0
+	^	54	1
+	.	54	0
+	+	54	0
+
+> ~/alx-low_level_programming/0x0C-more_malloc_free/100-realloc.c
+	*	1678984815	0
+	"	48	0
+	^	48	1
+	.	48	0
+	+	48	0
+
+> ~/alx-low_level_programming/0x0C-more_malloc_free/101-mul.c
+	*	1678984748	0
+	"	104	0
+	^	104	1
+	.	104	0
+	+	104	0
+
+> ~/alx-low_level_programming/0x0C-more_malloc_free/2-calloc.c
+	*	1678984689	0
+	"	37	0
+	^	37	1
+	.	37	0
+	+	37	0
+
+> ~/alx-low_level_programming/0x0C-more_malloc_free/2-main.c
+	*	1678984503	0
+	"	50	0
+	^	50	1
+	.	50	0
+	+	50	0
+
+> ~/alx-low_level_programming/0x0C-more_malloc_free/3-array_range.c
+	*	1678984459	0
+	"	37	0
+	^	37	1
+	.	37	0
+	+	37	0
+
+> ~/alx-low_level_programming/0x0C-more_malloc_free/3-main.c
+	*	1678984412	0
+	"	47	0
+	^	47	1
+	.	47	0
+	+	47	0
+
+> ~/alx-low_level_programming/0x0C-more_malloc_free/_putchar.c
+	*	1678984371	0
+	"	13	0
+	^	13	1
+	.	13	0
+	+	13	0
+
+> ~/alx-low_level_programming/0x0C-more_malloc_free/c.c.c
+	*	1678984326	0
+	"	27	0
+	^	27	1
+	.	27	0
+	+	27	0
+
+> ~/alx-low_level_programming/0x0C-more_malloc_free/main.h
+	*	1678984285	0
+	"	17	5
+	^	17	6
+	.	17	5
+	+	17	5
+
+> ~/alx-low_level_programming/0x0C-more_malloc_free/README.md
+	*	1678984156	0
+	"	7	2
+	^	7	3
+	.	7	2
+	+	4	1
+	+	1	1
+	+	4	19
+	+	26	137
+	+	18	2
+	+	7	2
+
+> ~/alx-low_level_programming/0x0B-malloc_free/0-create_array.c
+	*	1678707370	0
+	"	26	0
+	^	26	1
+	.	26	0
+	+	26	0
+
+> ~/alx-low_level_programming/0x0B-malloc_free/0-main.c
+	*	1678707338	0
+	"	51	0
+	^	51	1
+	.	51	0
+	+	51	0
+
+> ~/alx-low_level_programming/0x0B-malloc_free/1-main.c
+	*	1678707290	0
+	"	23	0
+	^	23	1
+	.	23	0
+	+	23	0
+
+> ~/alx-low_level_programming/0x0B-malloc_free/1-strdup.c
+	*	1678707249	0
+	"	34	0
+	^	34	1
+	.	34	0
+	+	34	0
+
+> ~/alx-low_level_programming/0x0B-malloc_free/100-argstostr.c
+	*	1678707203	0
+	"	49	0
+	^	49	1
+	.	49	0
+	+	49	0
+
+> ~/alx-low_level_programming/0x0B-malloc_free/100-main.c
+	*	1678707165	0
+	"	22	0
+	^	22	1
+	.	22	0
+	+	22	0
+
+> ~/alx-low_level_programming/0x0B-malloc_free/101-main.c
+	*	1678707128	0
+	"	38	0
+	^	38	1
+	.	38	0
+	+	38	0
+
+> ~/alx-low_level_programming/0x0B-malloc_free/101-strtow.c
+	*	1678707082	0
+	"	72	0
+	^	72	1
+	.	72	0
+	+	72	0
+
+> ~/alx-low_level_programming/0x0B-malloc_free/2-main.c
+	*	1678707026	0
+	"	23	0
+	^	23	1
+	.	23	0
+	+	23	0
+
+> ~/alx-low_level_programming/0x0B-malloc_free/2-str_concat.c
+	*	1678706988	0
+	"	47	0
+	^	47	1
+	.	47	0
+	+	47	0
+
+> ~/alx-low_level_programming/0x0B-malloc_free/3-alloc_grid.c
+	*	1678706948	0
+	"	48	0
+	^	48	1
+	.	48	0
+	+	48	0
+
+> ~/alx-low_level_programming/0x0B-malloc_free/3-main.c
+	*	1678706905	0
+	"	52	0
+	^	52	1
+	.	52	0
+	+	52	0
+
+> ~/alx-low_level_programming/0x0B-malloc_free/4-free_grid.c
+	*	1678706864	0
+	"	24	0
+	^	24	1
+	.	24	0
+	+	24	0
+
+> ~/alx-low_level_programming/0x0B-malloc_free/4-main.c
+	*	1678706804	0
+	"	53	0
+	^	53	1
+	.	53	0
+	+	53	0
+
+> ~/alx-low_level_programming/0x0B-malloc_free/_putchar.c
+	*	1678706762	0
+	"	13	0
+	^	13	1
+	.	13	0
+	+	13	0
+
+> ~/alx-low_level_programming/0x0B-malloc_free/main.h
+	*	1678706690	0
+	"	14	5
+	^	14	6
+	.	14	5
+	+	14	5
+
+> ~/alx-low_level_programming/0x0B-malloc_free/README.md
+	*	1678706656	0
+	"	27	0
+	^	27	0
+	.	17	1
+	+	2	21
+	+	1	1
+	+	26	101
+	+	18	0
+	+	17	1
+
+> ~/alx-low_level_programming/0x0A-argc_argv/4-add.c
+	*	1678448057	0
+	"	38	0
+	^	38	1
+	.	38	0
+	+	38	0
+
+> ~/alx-low_level_programming/0x0A-argc_argv/3-mul.c
+	*	1678448003	0
+	"	33	0
+	^	33	1
+	.	33	0
+	+	33	0
+
+> ~/alx-low_level_programming/0x0A-argc_argv/2-args.c
+	*	1678447970	0
+	"	22	0
+	^	22	1
+	.	22	0
+	+	22	0
+
+> ~/alx-low_level_programming/0x0A-argc_argv/100-change.c
+	*	1678447919	0
+	"	58	0
+	^	58	1
+	.	58	0
+	+	58	0
+
+> ~/alx-low_level_programming/0x0A-argc_argv/1-args.c
+	*	1678447852	0
+	"	19	0
+	^	19	1
+	.	19	0
+	+	19	0
+
+> ~/alx-low_level_programming/0x0A-argc_argv/0-whatsmyname.c
+	*	1678447815	0
+	"	19	0
+	^	19	1
+	.	19	0
+	+	19	0
+
+> ~/alx-low_level_programming/0x0A-argc_argv/README.md
+	*	1678446903	0
+	"	33	121
+	^	33	122
+	.	33	121
+	+	33	121
+
+> ~/alx-low_level_programming/0x09-static_libraries/create_static_lib.sh
+	*	1678443850	0
+	"	4	14
+	^	4	15
+	.	4	14
+	+	4	14
+
+> ~/alx-low_level_programming/0x09-static_libraries/main.h
+	*	1678443751	0
+	"	32	5
+	^	32	6
+	.	32	5
+	+	32	5
+
+> ~/alx-low_level_programming/0x09-static_libraries/README.md
+	*	1678443136	0
+	"	18	2
+	^	18	3
+	.	18	2
+	+	8	0
+	+	4	17
+	+	22	236
+	+	18	2
+
+> ~/alx-low_level_programming/0x08-recursion/6-is_prime_number.c
+	*	1678295374	0
+	"	41	0
+	^	41	1
+	.	41	0
+	+	41	0
+
+> ~/alx-low_level_programming/0x08-recursion/6-main.c
+	*	1678295328	0
+	"	30	0
+	^	30	1
+	.	30	0
+	+	30	0
+
+> ~/alx-low_level_programming/0x08-recursion/5-sqrt_recursion.c
+	*	1678295189	0
+	"	38	0
+	^	38	1
+	.	38	0
+	+	38	0
+
+> ~/alx-low_level_programming/0x08-recursion/5-main.c
+	*	1678295153	0
+	"	26	0
+	^	26	1
+	.	26	0
+	+	26	0
+
+> ~/alx-low_level_programming/0x08-recursion/4-pow_recursion.c
+	*	1678295117	0
+	"	22	0
+	^	22	1
+	.	23	0
+	+	23	0
+
+> ~/alx-low_level_programming/0x08-recursion/4-main.c
+	*	1678295078	0
+	"	26	0
+	^	26	1
+	.	26	0
+	+	26	0
+
+> ~/alx-low_level_programming/0x08-recursion/3-factorial.c
+	*	1678295036	0
+	"	18	0
+	^	18	1
+	.	18	0
+	+	18	0
+
+> ~/alx-low_level_programming/0x08-recursion/3-main.c
+	*	1678295000	0
+	"	22	0
+	^	22	1
+	.	22	0
+	+	22	0
+
+> ~/alx-low_level_programming/0x08-recursion/2-strlen_recursion.c
+	*	1678294963	0
+	"	16	0
+	^	16	1
+	.	16	0
+	+	16	0
+
+> ~/alx-low_level_programming/0x08-recursion/2-main.c
+	*	1678294928	0
+	"	16	0
+	^	16	1
+	.	16	0
+	+	16	0
+
+> ~/alx-low_level_programming/0x08-recursion/101-wildcmp.c
+	*	1678294890	0
+	"	26	0
+	^	26	1
+	.	26	0
+	+	26	0
+
+> ~/alx-low_level_programming/0x08-recursion/101-main.c
+	*	1678294850	0
+	"	38	0
+	^	38	1
+	.	38	0
+	+	38	0
+
+> ~/alx-low_level_programming/0x08-recursion/100-is_palindrome.c
+	*	1678294784	0
+	"	39	0
+	^	39	1
+	.	39	0
+	+	39	0
+
+> ~/alx-low_level_programming/0x08-recursion/100-main.c
+	*	1678294735	0
+	"	22	0
+	^	22	1
+	.	22	0
+	+	22	0
+
+> ~/alx-low_level_programming/0x08-recursion/1-print_rev_recursion.c
+	*	1678294616	0
+	"	18	0
+	^	18	1
+	.	18	0
+	+	18	0
+
+> ~/alx-low_level_programming/0x08-recursion/1-main.c
+	*	1678294585	0
+	"	12	0
+	^	12	1
+	.	12	0
+	+	12	0
+
+> ~/alx-low_level_programming/0x08-recursion/0-puts_recursion.c
+	*	1678294555	0
+	"	20	0
+	^	20	1
+	.	20	0
+	+	20	0
+
+> ~/alx-low_level_programming/0x08-recursion/0-main.c
+	*	1678294526	0
+	"	12	0
+	^	12	1
+	.	12	0
+	+	12	0
+
+> ~/alx-low_level_programming/0x08-recursion/_putchar.c
+	*	1678294491	0
+	"	13	0
+	^	13	1
+	.	13	0
+	+	13	0
+
+> ~/alx-low_level_programming/0x08-recursion/main.h
+	*	1678294447	0
+	"	18	5
+	^	18	6
+	.	18	5
+	+	18	5
+
+> ~/alx-low_level_programming/0x08-recursion/README.md
+	*	1678294417	0
+	"	30	0
+	^	30	0
+	.	29	206
+	+	3	2
+	+	29	206
+
+> ~/alx-low_level_programming/0x07-pointers_arrays_strings/8-print_diagsums.c
+	*	1678128578	0
+	"	28	0
+	^	28	1
+	.	28	0
+	+	28	0
+
+> ~/alx-low_level_programming/0x07-pointers_arrays_strings/101-crackme_password
+	*	1678105857	0
+	"	1	5
+	^	1	6
+	.	1	5
+	+	1	5
+
+> ~/alx-low_level_programming/0x07-pointers_arrays_strings/100-set_string.c
+	*	1678105771	0
+	"	16	0
+	^	16	1
+	.	16	0
+	+	16	0
+
+> ~/alx-low_level_programming/0x07-pointers_arrays_strings/100-main.c
+	*	1678105736	0
+	"	18	0
+	^	18	1
+	.	18	0
+	+	18	0
+
+> ~/alx-low_level_programming/0x07-pointers_arrays_strings/8-main.c
+	*	1678105583	0
+	"	26	0
+	^	26	1
+	.	26	0
+	+	26	0
+
+> ~/alx-low_level_programming/0x07-pointers_arrays_strings/7-print_chessboard.c
+	*	1678105542	0
+	"	22	0
+	^	22	1
+	.	22	0
+	+	22	0
+
+> ~/alx-low_level_programming/0x07-pointers_arrays_strings/7-main.c
+	*	1678105506	0
+	"	25	0
+	^	25	1
+	.	25	0
+	+	25	0
+
+> ~/alx-low_level_programming/0x07-pointers_arrays_strings/5-strstr.c
+	*	1678105344	0
+	"	29	0
+	^	29	1
+	.	29	0
+	+	29	0
+
+> ~/alx-low_level_programming/0x07-pointers_arrays_strings/5-main.c
+	*	1678105304	0
+	"	18	0
+	^	18	1
+	.	18	0
+	+	18	0
+
+> ~/alx-low_level_programming/0x07-pointers_arrays_strings/4-strpbrk.c
+	*	1678105060	0
+	"	30	0
+	^	30	1
+	.	30	0
+	+	30	0
+
+> ~/alx-low_level_programming/0x07-pointers_arrays_strings/4-main.c
+	*	1678105016	0
+	"	18	0
+	^	18	1
+	.	18	0
+	+	18	0
+
+> ~/alx-low_level_programming/0x07-pointers_arrays_strings/3-strspn.c
+	*	1678104979	0
+	"	38	0
+	^	38	1
+	.	38	0
+	+	38	0
+
+> ~/alx-low_level_programming/0x07-pointers_arrays_strings/3-main.c
+	*	1678104940	0
+	"	18	0
+	^	18	1
+	.	18	0
+	+	18	0
+
+> ~/alx-low_level_programming/0x07-pointers_arrays_strings/2-strchr.c
+	*	1678104892	0
+	"	28	0
+	^	28	1
+	.	28	0
+	+	28	0
+
+> ~/alx-low_level_programming/0x07-pointers_arrays_strings/2-main.c
+	*	1678104849	0
+	"	21	0
+	^	21	1
+	.	21	0
+	+	21	0
+
+> ~/alx-low_level_programming/0x07-pointers_arrays_strings/1-memcpy.c
+	*	1678104715	0
+	"	22	0
+	^	22	1
+	.	23	0
+	+	23	0
+
+> ~/alx-low_level_programming/0x07-pointers_arrays_strings/1-main.c
+	*	1678104681	0
+	"	47	0
+	^	47	1
+	.	47	0
+	+	47	0
+
+> ~/alx-low_level_programming/0x07-pointers_arrays_strings/_putchar.c
+	*	1678104580	0
+	"	13	0
+	^	13	1
+	.	13	0
+	+	13	0
+
+> ~/alx-low_level_programming/0x07-pointers_arrays_strings/main.h
+	*	1678104547	0
+	"	16	5
+	^	16	6
+	.	16	5
+	+	16	5
+
+> ~/alx-low_level_programming/0x07-pointers_arrays_strings/0-memset.c
+	*	1678104507	0
+	"	26	0
+	^	26	1
+	.	26	0
+	+	26	0
+
+> ~/alx-low_level_programming/0x07-pointers_arrays_strings/0-main.c
+	*	1678104470	0
+	"	46	0
+	^	46	1
+	.	46	0
+	+	46	0
+
+> ~/alx-low_level_programming/0x07-pointers_arrays_strings/README.md
+	*	1678102585	0
+	"	16	2
+	^	16	3
+	.	6	2
+	+	28	184
+	+	16	2
+	+	6	2
+
+> ~/alx-low_level_programming/0x06-pointers_arrays_strings/104-print_buffer.c
+	*	1677655827	0
+	"	100	0
+	^	100	1
+	.	100	0
+	+	100	0
+
+> ~/alx-low_level_programming/0x06-pointers_arrays_strings/104-main.c
+	*	1677655781	0
+	"	17	0
+	^	17	1
+	.	17	0
+	+	17	0
+
+> ~/alx-low_level_programming/0x06-pointers_arrays_strings/103-main.c
+	*	1677655737	0
+	"	59	0
+	^	59	1
+	.	59	0
+	+	59	0
+
+> ~/alx-low_level_programming/0x06-pointers_arrays_strings/103-infinite_add.c
+	*	1677655684	0
+	"	60	0
+	^	60	1
+	.	60	0
+	+	60	0
+
+> ~/alx-low_level_programming/0x06-pointers_arrays_strings/102-magic.c
+	*	1677655631	0
+	"	23	0
+	^	23	1
+	.	23	0
+	+	23	0
+
+> ~/alx-low_level_programming/0x06-pointers_arrays_strings/101-print_number.c
+	*	1677655567	0
+	"	32	0
+	^	32	1
+	.	32	0
+	+	32	0
+
+> ~/alx-low_level_programming/0x06-pointers_arrays_strings/101-main.c
+	*	1677655514	0
+	"	21	0
+	^	21	1
+	.	21	0
+	+	21	0
+
+> ~/alx-low_level_programming/0x06-pointers_arrays_strings/100-rot13
+	*	1677655448	0
+	"	35	0
+	^	35	1
+	.	35	1
+	+	35	1
+
+> ~/alx-low_level_programming/0x06-pointers_arrays_strings/100-main.c
+	*	1677655397	0
+	"	29	0
+	^	29	1
+	.	29	0
+	+	29	0
+
+> ~/alx-low_level_programming/0x06-pointers_arrays_strings/7-leet.c
+	*	1677655299	0
+	"	38	0
+	^	38	1
+	.	38	0
+	+	38	0
